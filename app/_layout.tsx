@@ -1,5 +1,6 @@
-import { Stack } from "expo-router";
+import { Stack } from 'expo-router';
 
-export default function RootLayout() {
-  return <Stack />;
-}
+const RootLayout = () => <Stack />;
+
+// eslint-disable-next-line import/no-unused-modules
+export default RootLayout;
