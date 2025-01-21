@@ -1,9 +1,11 @@
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 import { StyleSheet } from 'react-native-unistyles';
+
+import { TextComponent } from '@/components/TextComponent';
 
 const Index = () => (
   <View style={s.wrapper}>
-    <Text>Edit app/index.tsx to edit this screen.</Text>
+    <TextComponent name="Some text" style={s.text} />
   </View>
 );
 
@@ -12,6 +14,10 @@ const s = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+  },
+
+  text: {
+    color: 'red',
   },
 });
 
