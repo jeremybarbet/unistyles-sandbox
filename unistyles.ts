@@ -28,6 +28,6 @@ StyleSheet.configure({
     dark,
   },
   settings: {
-    adaptiveThemes: true,
+    initialTheme: 'dark',
   },
 });
