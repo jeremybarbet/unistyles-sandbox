@@ -8654,13 +8654,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-nitro-modules@npm:0.21.0":
-  version: 0.21.0
-  resolution: "react-native-nitro-modules@npm:0.21.0"
+"react-native-nitro-modules@npm:0.22.1":
+  version: 0.22.1
+  resolution: "react-native-nitro-modules@npm:0.22.1"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/ae1443a7fb3166fd7467f5d9852ff3fa69a64b032bb4d3a25364e8a109afb19242b9ccaca1550a726fb82774199302f90ea4d6a3dd142ac05ecd667e2ede7669
+  checksum: 10c0/1bba3b775631a8f4a4089e1bdb21a2f504a3b7cc0ad0b30d535b7b6ba51e65189e9e41667ab53119396666f3b545042b8e53215acc73ee3ff69745e28da5b2c4
   languageName: node
   linkType: hard
 
@@ -8710,16 +8710,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-unistyles@npm:3.0.0-nightly-20250131":
-  version: 3.0.0-nightly-20250131
-  resolution: "react-native-unistyles@npm:3.0.0-nightly-20250131"
+"react-native-unistyles@npm:3.0.0-nightly-20250216":
+  version: 3.0.0-nightly-20250216
+  resolution: "react-native-unistyles@npm:3.0.0-nightly-20250216"
   peerDependencies:
     "@react-native/normalize-colors": "*"
     react: "*"
     react-native: ">=0.76.0"
     react-native-edge-to-edge: "*"
     react-native-nitro-modules: "*"
-  checksum: 10c0/1e1398f7aea4f8bec75d87d5db12c35f8602fac042614a0b55d5fe99e7da139cbaf685f9dbb6e04b0ff35a549c3a6ddf7c984fd9eb492a9f18af0e6ac6f6a4f0
+  checksum: 10c0/8fd13b046dfbb33304c882d5649554ac562ef948664e33440ab9a9b3ceee0e42cf9a24d1bc8dffeb8cae530b5ac2018523621066154a6452bab57b5c23978108
   languageName: node
   linkType: hard
 
@@ -10470,11 +10470,11 @@ __metadata:
     react-native: "npm:0.76.6"
     react-native-edge-to-edge: "npm:1.4.2"
     react-native-gesture-handler: "npm:2.20.2"
-    react-native-nitro-modules: "npm:0.21.0"
+    react-native-nitro-modules: "npm:0.22.1"
     react-native-reanimated: "npm:3.16.1"
     react-native-safe-area-context: "npm:4.12.0"
     react-native-screens: "npm:4.4.0"
-    react-native-unistyles: "npm:3.0.0-nightly-20250131"
+    react-native-unistyles: "npm:3.0.0-nightly-20250216"
     typescript: "npm:5.3.3"
   languageName: unknown
   linkType: soft
