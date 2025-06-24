@@ -1,11 +1,21 @@
-import { Text, View } from 'react-native';
+import { Button, Text, View } from 'react-native';
 import { StyleSheet } from 'react-native-unistyles';
+import { useRouter } from 'expo-router';
 
-const Index = () => (
-  <View style={s.wrapper}>
-    <Text>Edit app/index.tsx to edit this screen.</Text>
-  </View>
-);
+const Index = () => {
+  const { push } = useRouter();
+
+  const handleModal = () => {
+    push('/modal');
+  };
+
+  return (
+    <View style={s.wrapper}>
+      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Button title="Open modal" onPress={handleModal} />
+    </View>
+  );
+};
 
 const s = StyleSheet.create({
   wrapper: {

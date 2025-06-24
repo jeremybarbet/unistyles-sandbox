@@ -8,6 +8,7 @@
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
+    "ios:prod": "expo run:ios --configuration Release",
     "prebuild": "expo prebuild --clean",
     "lint": "yarn lint:tsc && yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "node_modules/.bin/eslint --fix '**/*.{ts,tsx,js}'",
