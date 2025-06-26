@@ -49,6 +49,10 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "router": {
+      "origin": false,
+      "root": "./src/app"
     }
   }
 }
