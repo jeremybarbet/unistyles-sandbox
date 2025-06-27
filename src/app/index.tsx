@@ -5,17 +5,15 @@ import { StyleSheet } from 'react-native-unistyles';
 import { Card } from '../components/Card';
 import { Input } from '../components/Input';
 
-const Index = () => {
-  return (
-    <ScrollView keyboardShouldPersistTaps="handled" style={s.wrapper} contentContainerStyle={s.contentContainer}>
-      <Input />
+const Index = () => (
+  <ScrollView keyboardShouldPersistTaps="handled" style={s.wrapper} contentContainerStyle={s.contentContainer}>
+    <Input />
 
-      <Card layout={LinearTransition}>
-        <Text>Edit app/index.tsx to edit this screen.</Text>
-      </Card>
-    </ScrollView>
-  )
-};
+    <Card layout={LinearTransition}>
+      <Text>Edit app/index.tsx to edit this screen.</Text>
+    </Card>
+  </ScrollView>
+)
 
 const s = StyleSheet.create(theme => ({
   wrapper: {

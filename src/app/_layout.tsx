@@ -6,19 +6,17 @@ const Layout = () => {
   const { theme } = useUnistyles();
 
   return (
-    <>
-      <ThemeProvider
-        value={{
-          ...DefaultTheme,
-          colors: {
-            ...DefaultTheme.colors,
-            background: theme.background,
-          }
-        }}
-      >
-        <Stack />
-      </ThemeProvider>
-    </>
+    <ThemeProvider
+      value={{
+        ...DefaultTheme,
+        colors: {
+          ...DefaultTheme.colors,
+          background: theme.background,
+        }
+      }}
+    >
+      <Stack />
+    </ThemeProvider>
   )
 };
 
