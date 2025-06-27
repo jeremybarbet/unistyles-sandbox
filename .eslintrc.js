@@ -10,5 +10,6 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-require-imports': [1, { allow: ['assets/'] }],
     'react/react-in-jsx-scope': 'off',
+    'react-hooks/react-compiler': 'off',
   },
 };
