@@ -3,7 +3,6 @@
     "name": "unistyles-sandbox",
     "slug": "unistyles-sandbox",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
